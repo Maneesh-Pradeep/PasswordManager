@@ -28,4 +28,16 @@ You can just download or `git clone` this repository to your device and perform
 `python passwordManager3.py`
 to execute the program and it will automatically install all the necessary libraries needed.
 
-But if you are more concerned about the dependencies then you can always create a virtual-env and just `pip install -r requirements.txt` to first download all the necessary packages and then run the main program.
+But if you are more concerned about the dependencies then you can always create a virtual-env and just
+`pip install -r requirements.txt` to first download all the necessary packages and then run the main program.
+
+## Dependencies
+The program depends on the following third party libraries
+  * **PySimpleGUI** (for GUI)
+  * **pyrebase** (firebase API)
+  * **requests** (for firebase error handling)
+  * **pandas** (to create a table from the data)
+  * **pyperclip** (to copy the passwords to the clipboard)
+  * **cryptography** (for encryption and decryption)
+  
+  You can just refer to the **requirements.txt** file included in the repository
