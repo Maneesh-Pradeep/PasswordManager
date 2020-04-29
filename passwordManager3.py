@@ -344,8 +344,11 @@ while True:
                 break
             if e in 'Generate':
                 size = sg.PopupGetText("Enter the length of the password : ")
-                pwd = pass_gen(int(size))
-                add_window['pwd'](pwd)
+                try:
+                    pwd = pass_gen(int(size))
+                    add_window['pwd'](pwd)
+                except:
+                    pass
     if event == 'View' and not view_window_active:
         view_window_active = True
         window.hide()
