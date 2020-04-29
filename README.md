@@ -14,3 +14,18 @@ Here are some of the key features of this Password Manager :
   All your passwords in the cloud are stored as encrypted text and not plain text and the key is generated using User Identity based key generation algorithm, so only you can view your data. Not even the admin of the cloud server (me) can view your passwords.
 ### 3. It has a fully functional Graphical User Interface
   I have used the [**PySimpleGUI**](https://pysimplegui.readthedocs.io/en/latest/) library to create a fully functional GUI for a seamless experience for the user.
+### 4. Secure User authentication
+  The user is authenticated using an email and password powered by the Firebase console itself, so users don't have to worry about others accessing their account.
+### 5. In-built Password Generator
+  I have also added an in-built Password Generator to generate strong and secure passwords. The user has the freedom to choose the output Password length.
+### 6. Email verification and Reset Password
+  Since the user is authenticated using their email, they will receive a mail link to reset their password in case of forgotten password. This is really useful since only the respective email address owners can change thier passwords making their account more secure from others.
+### 7. Clipboard access
+  While viewing your passwords, double clicking on them will automatically copy the respective passwords to your device's clipboard. And the best part is that the clipboard will be cleared automatically after 10s after copying.Making your passwords more secure and not easily accessible to others.
+  
+## Usage
+You can just download or `git clone` this repository to your device and perform
+`python passwordManager3.py`
+to execute the program and it will automatically install all the necessary libraries needed.
+
+But if you are more concerned about the dependencies then you can always create a virtual-env and just `pip install -r requirements.txt` to first download all the necessary packages and then run the main program.
