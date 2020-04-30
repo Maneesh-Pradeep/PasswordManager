@@ -16,8 +16,8 @@ import random
 import base64
 import json
 import threading
-import subprocess
 import sys
+import subprocess
 
 try:
     import pandas as pd
@@ -29,8 +29,13 @@ try:
     from cryptography.hazmat.backends import default_backend
     from cryptography.hazmat.primitives import hashes
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-except (ModuleNotFoundError, ImportError) as e:
-    subprocess.call([sys.executable, "-m", "pip", "install", 'pandas PySimpleGUI pyrebase requests pyperclip cryptography'])
+except ModuleNotFoundError:
+    subprocess.call([sys.executable, "-m", "pip", "install", 'pandas'])
+    subprocess.call([sys.executable, "-m", "pip", "install", 'pyperclip'])
+    subprocess.call([sys.executable, "-m", "pip", "install", 'PySimpleGUI'])
+    subprocess.call([sys.executable, "-m", "pip", "install", 'requests'])
+    subprocess.call([sys.executable, "-m", "pip", "install", 'pyrebase'])
+    subprocess.call([sys.executable, "-m", "pip", "install", 'cryptography'])
 finally:
     import pandas as pd
     import PySimpleGUI as sg
@@ -470,5 +475,6 @@ while True:
                 res_window_active = False
                 window.UnHide()
                 break
-                
+
+
 # MIT (c) Maneesh Pradeep
