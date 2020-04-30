@@ -41,3 +41,11 @@ The program depends on the following third party libraries
   * **cryptography** (for encryption and decryption)
   
   You can just refer to the **requirements.txt** file included in the repository
+
+## Future Updates
+I will try my best to add new features and remove bugs if any.
+Some of the current limitations of the program are :
+### 1. Lack of Master Password
+  * As I use the Firebase email and password login, I didn't find any way to implement the master password feature. But sure in the future I will.
+### 2. Auto-Fill
+  * Currently you have the freedom to only copy the password to your clipboard, but the program can't auto fill the passwords if you visit the respective website. For that feature to be implemented, I should have a fully functional **Browser Extension**, which I'm planning to do in the future.
