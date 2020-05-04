@@ -30,12 +30,7 @@ try:
     from cryptography.hazmat.primitives import hashes
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 except ModuleNotFoundError:
-    subprocess.call([sys.executable, "-m", "pip", "install", 'pandas'])
-    subprocess.call([sys.executable, "-m", "pip", "install", 'pyperclip'])
-    subprocess.call([sys.executable, "-m", "pip", "install", 'PySimpleGUI'])
-    subprocess.call([sys.executable, "-m", "pip", "install", 'requests'])
-    subprocess.call([sys.executable, "-m", "pip", "install", 'pyrebase'])
-    subprocess.call([sys.executable, "-m", "pip", "install", 'cryptography'])
+    subprocess.call([sys.executable, "-m", "pip", "install", 'pandas', 'pyperclip', 'PySimpleGUI', 'requests', 'pyrebase', 'cryptography'])
 finally:
     import pandas as pd
     import PySimpleGUI as sg
@@ -349,11 +344,8 @@ while True:
                 break
             if e in 'Generate':
                 size = sg.PopupGetText("Enter the length of the password : ")
-                try:
-                    pwd = pass_gen(int(size))
-                    add_window['pwd'](pwd)
-                except:
-                    pass
+                pwd = pass_gen(int(size))
+                add_window['pwd'](pwd)
     if event == 'View' and not view_window_active:
         view_window_active = True
         window.hide()
