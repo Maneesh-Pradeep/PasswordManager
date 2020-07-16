@@ -12,15 +12,17 @@ Here are some of the key features of this Password Manager :
   I have integrated this project with my Firebase Console developed by Google to store all the user's data
 ### 2. All your passwords stored in the cloud are encrypted
   All your passwords in the cloud are stored as encrypted text and not plain text and the key is generated using User Identity based key generation algorithm, so only you can view your data. Not even the admin of the cloud server (me) can view your passwords.
-### 3. It has a fully functional Graphical User Interface
+### 3. Secure File Encryption Vault
+  I have added a new File encryption Vault feature, where users can store their important documents safe in the cloud. The files will be encrypted before storing in the cloud, so users don't have to worry about the security of their documents.
+### 4. It has a fully functional Graphical User Interface
   I have used the [**PySimpleGUI**](https://pysimplegui.readthedocs.io/en/latest/) library to create a fully functional GUI for a seamless experience for the user.
-### 4. Secure User authentication
+### 5. Secure User authentication
   The user is authenticated using an email and password powered by the Firebase console itself, so users don't have to worry about others accessing their account.
-### 5. In-built Password Generator
+### 6. In-built Password Generator
   I have also added an in-built Password Generator to generate strong and secure passwords. The user has the freedom to choose the output Password length.
-### 6. Email verification and Reset Password
+### 7. Email verification and Reset Password
   Since the user is authenticated using their email, they will receive a mail link to reset their password in case of forgotten password. This is really useful since only the respective email address owners can change thier passwords making their account more secure from others.
-### 7. Clipboard access
+### 8. Clipboard access
   While viewing your passwords, double clicking on them will automatically copy the respective passwords to your device's clipboard. And the best part is that the clipboard will be cleared automatically after 10s after copying.Making your passwords more secure and not easily accessible to others.
   
 ## Usage
