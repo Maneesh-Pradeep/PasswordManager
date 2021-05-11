@@ -1,6 +1,8 @@
 # PasswordManager
 A fully functional Password Manager made in python
 
+[![Support me!](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/maneeshpradeep)
+
 ## Overview
 This is my first ever python project and kinda my best and my most favourite project I've ever done.
 
