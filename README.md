@@ -29,7 +29,7 @@ Here are some of the key features of this Password Manager :
   
 ## Usage
 You can just download or `git clone` this repository to your device and perform
-`python passwordManager3.py`
+`python PasswordManager.py`
 to execute the program and it will automatically install all the necessary libraries needed.
 
 But if you are more concerned about the dependencies then you can always create a virtual-env and just
