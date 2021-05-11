@@ -27,13 +27,22 @@ Here are some of the key features of this Password Manager :
 ### 8. Clipboard access
   While viewing your passwords, double clicking on them will automatically copy the respective passwords to your device's clipboard. And the best part is that the clipboard will be cleared automatically after 10s after copying.Making your passwords more secure and not easily accessible to others.
   
-## Usage
-You can just download or `git clone` this repository to your device and perform
-`python PasswordManager.py`
-to execute the program and it will automatically install all the necessary libraries needed.
+## Installation
+```
+# clone this repository
+git clone https://github.com/Manoj-Shan/PasswordManager.git
 
-But if you are more concerned about the dependencies then you can always create a virtual-env and just
-`pip install -r requirements.txt` to first download all the necessary packages and then run the main program.
+# Change directory
+cd PasswordManager
+
+# Execute the python file
+python3 PasswordManager.py
+```
+
+The program will automatically install all the necessary libraries(dependencies) needed.
+
+But if you are more concerned about the dependencies then you can always create a virtual-env and just do 
+`pip3 install -r requirements.txt` to first download all the necessary packages and then run the main program.
 
 ## Dependencies
 The program depends on the following third party libraries
