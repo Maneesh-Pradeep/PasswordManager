@@ -42,6 +42,7 @@ python3 PasswordManager.py
 The program will automatically install all the necessary libraries(dependencies) needed.
 
 But if you are more concerned about the dependencies then you can always create a virtual-env and just do 
+
 `pip3 install -r requirements.txt` to first download all the necessary packages and then run the main program.
 
 ## Dependencies
