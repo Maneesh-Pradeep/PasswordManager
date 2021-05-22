@@ -4,9 +4,9 @@
                V3.1
 
 Author  : @maneeshpradeep AKA @manojshan
-mail    : manojshan2002@gmail.com
-website : maneeshpradeep.in
-github  : github.com/manoj-shan 
+mail    : maneesh.pradeep@protonmail.com
+website : https://www.maneeshpradeep.in
+github  : github.com/maneesh=pradeep
 
 '''
 
