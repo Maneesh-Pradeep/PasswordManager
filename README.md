@@ -30,7 +30,7 @@ Here are some of the key features of this Password Manager :
 ## Installation
 ```
 # clone this repository
-https://github.com/Maneesh-Pradeep/PasswordManager.git
+git clone https://github.com/Maneesh-Pradeep/PasswordManager.git
 
 # Change directory
 cd PasswordManager
