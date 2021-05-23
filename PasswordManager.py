@@ -423,7 +423,7 @@ while True:
         add_window_active = True
         window.hide()
         rnd_pass_frame = [
-            [sg.T("Click here to generate a secrets and strong password : ", font=("", 14), text_color='blue')],
+            [sg.T("Click here to generate a strong password : ", font=("", 14), text_color='blue')],
             [sg.Button("Generate", font=("", 12))]]
         add_layout = [
             [sg.T("Add a new entry : ", font=("", 15), size=(39, 1), text_color='green', relief=sg.RELIEF_RIDGE)],
@@ -498,7 +498,7 @@ while True:
                 if (len(val['-TABLE-']) == 1):
                     upd_window_active = True
                     view_window.hide()
-                    rnd_pass_frame = [[sg.T("Click here to generate a secrets and strong password : ", font=("", 14),
+                    rnd_pass_frame = [[sg.T("Click here to generate a strong password : ", font=("", 14),
                                             text_color='blue')],
                                       [sg.Button("Generate", font=("", 12))]]
                     ref_data = data[int(val['-TABLE-'][0])]
