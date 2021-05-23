@@ -95,7 +95,7 @@ lgn_layout = [
     [sg.Button("Sign Up")],
     [sg.Text('=' * 70)],
     [sg.Text("Already have an account?", font=("", 17))],
-    [sg.Text("Email : ", size=(20, 1)), sg.InputText("", key="SIemail")],
+    [sg.Text("Email : ", size=(20, 1)), sg.InputText("", key="SIemail", focus=True)],
     [sg.Text("Password : ", size=(20, 1)), sg.InputText("", key="SIpwd", password_char='*')],
     [sg.Button("Login", bind_return_key=True)]]
 lgn_window = sg.Window("Login", lgn_layout)
