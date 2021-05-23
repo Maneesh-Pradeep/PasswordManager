@@ -8,7 +8,7 @@ This is my first ever python project and kinda my best and my most favourite pro
 
 Basically This is a fully functional Password Manager that possesses almost all the features an ideal Password Manager should have (except a very few).
 
-<img src="https://github.com/Maneesh-Pradeep/PasswordManager/blob/master/images/Main-Screen.png" alt="Main Screen" width="500"/>
+<img src="/images/Main-Screen.png" alt="Main Screen" width="500"/>
 
 ## Some Main Features of the project
 Here are some of the key features of this Password Manager : 
