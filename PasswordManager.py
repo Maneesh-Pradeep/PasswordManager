@@ -459,8 +459,11 @@ while True:
                     sg.PopupError("Password field should not be empty!", title='Error', keep_on_top=True)
             if e in 'Generate':
                 size = sg.PopupGetText("Enter the length of the password : ", keep_on_top=True)
-                pwd = pass_gen(int(size))
-                add_window['pwd'](pwd)
+                try:
+                    pwd = pass_gen(int(size))
+                    add_window['pwd'](pwd)
+                except:
+                    pass
 
     if event == 'View' and not view_window_active:
         view_window_active = True
