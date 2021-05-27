@@ -21,13 +21,15 @@ Here are some of the key features of this Password Manager :
 ### 4. It has a fully functional Graphical User Interface
   I have used the [**PySimpleGUI**](https://pysimplegui.readthedocs.io/en/latest/) library to create a fully functional GUI for a seamless experience for the user.
 ### 5. Secure User authentication
-  The user is authenticated using an email and password powered by the Firebase console itself, so users don't have to worry about others accessing their account.
+  The user is authenticated using an email and password powered by the Firebase console itself, o users can rely on the fact that their account is stored in a secure place.
 ### 6. In-built Password Generator
   I have also added an in-built Password Generator to generate strong and secure passwords. The user has the freedom to choose the output Password length.
 ### 7. Email verification and Reset Password
-  Since the user is authenticated using their email, they will receive a mail link to reset their password in case of forgotten password. This is really useful since only the respective email address owners can change thier passwords making their account more secure from others.
+  The users can reset/change their password after logging in. A link will be sent to the respective mail where the user can change their password.
+  
+  **Note:** Users cannot access their account if they forget their account password, as all their passwords and files are encrypted using their master password. I cannot help you if you forget your master password.
 ### 8. Clipboard access
-  While viewing your passwords, double clicking on them will automatically copy the respective passwords to your device's clipboard. And the best part is that the clipboard will be cleared automatically after 10s after copying.Making your passwords more secure and not easily accessible to others.
+  While viewing your passwords, double clicking on them will automatically copy the respective passwords to your device's clipboard. And the best part is that the clipboard will be cleared automatically after 10s after copying. Making your passwords more secure and not easily accessible to others.
   
 ## Installation
 ```
