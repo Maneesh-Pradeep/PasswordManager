@@ -6,7 +6,7 @@
 Author  : @maneeshpradeep AKA @manojshan
 mail    : maneesh.pradeep@protonmail.com
 website : https://www.maneeshpradeep.in
-github  : github.com/maneesh=pradeep
+github  : github.com/maneesh-pradeep
 
 '''
 
